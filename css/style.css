@@ -132,16 +132,17 @@ nav a.active{
 }
 
 
-section {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 8rem 9% 3rem;
-  background-color: var(--bg-color);
-  overflow-x: hidden;
-  overflow-y: auto;
+section{
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    padding: 8rem 9% 3rem;
+    visibility: hidden;
+    opacity: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+   
 }
-
 section.active{
     animation: show-content 1.5s linear forwards;
     animation-delay: 1.6s;
