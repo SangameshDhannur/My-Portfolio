@@ -763,7 +763,7 @@ section.active{
 
 .contact-box .field-box textarea{
     grid-column: 1 / -1;
-    height: 26rem;
+    height: 13rem;
     resize: none;
 }
 
