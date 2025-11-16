@@ -136,12 +136,13 @@ nav a.active{
 
 section{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     padding: 8rem 9% 3rem;
     visibility: hidden;
     opacity: 0;
     box-sizing: border-box;
+    overflow:hidden;
 }
 
 section.active{
