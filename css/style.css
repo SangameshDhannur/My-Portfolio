@@ -134,15 +134,13 @@ nav a.active{
 
 
 section{
-    position: relative;
+    position: absolute;
     width: 100%;
-    min-height: 100vh;
     height: 100%;
     padding: 8rem 9% 3rem;
     visibility: hidden;
     opacity: 0;
     box-sizing: border-box;
-    overflow: hidden;
    
 }
 
