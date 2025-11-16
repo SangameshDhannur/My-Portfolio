@@ -28,7 +28,7 @@
 
 html, body {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 html{
     font-size: 62.5%;
@@ -141,8 +141,6 @@ section{
     visibility: hidden;
     opacity: 0;
     box-sizing: border-box;
-    overflow: hidden;
-   
 }
 
 section.active{
